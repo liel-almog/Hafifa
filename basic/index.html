@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="app.js"></script>
-    <link rel="stylesheet" href="index.css" />
-    <title>Todos</title>
-  </head>
-  <body>
-    <main class="main flex center">
-      <section class="heading">
-        <h1 class="">Todos</h1>
-      </section>
-      <section class="input">
-        <input type="text" />
-        <section class="todos"></section>
-        <p class="muted">This is muted text</p>
-      </section>
-    </main>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="app.js" defer></script>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+            rel="stylesheet"
+        />
+        <title>Todos</title>
+    </head>
+    <body>
+        <main class="main flex center">
+            <section class="heading">
+                <h1 class="">todos</h1>
+            </section>
+            <section class="todo-list">
+                <input type="text" id="todo" class="todo" placeholder="Enter your todo" />
+                <section class="todos"></section>
+                <p class="muted">
+                    Left click to toggle completed. <br />
+                    Right click to detele todo.
+                </p>
+            </section>
+        </main>
+    </body>
 </html>

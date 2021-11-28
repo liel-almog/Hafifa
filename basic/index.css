@@ -1,23 +1,49 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .heading {
-  color: plum;
-  font-size: xxx-large;
+    color: rgba(221, 160, 221, 0.7);
+    font-size: 5em;
 }
 
 .main {
-  height: 100vh;
+    height: 100vh;
 }
 
 .flex {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.input {
-    margin-top: 3em;
+.todo-list {
+    margin-top: 2em;
+    width: 20%;
+}
+
+.muted {
+    font-size: small;
+    margin-top: 1em;
+    text-align: center;
+    color: rgb(173, 168, 168);
+}
+
+input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: larger;
+    width: 100%;
+    box-shadow: 5px 5px 2px 1px rgba(182, 182, 189, 0.2);
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: rgba(221, 160, 221, 0.7);
 }

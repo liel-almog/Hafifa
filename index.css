@@ -1,0 +1,23 @@
+.heading {
+  color: plum;
+  font-size: xxx-large;
+}
+
+.main {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+    margin-top: 3em;
+}

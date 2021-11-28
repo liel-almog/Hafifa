@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
+    background-color: rgb(240, 238, 239);
 }
 
 .heading {
@@ -22,7 +23,7 @@ body {
     align-items: center;
 }
 
-.todo-list {
+.todos {
     margin-top: 2em;
     width: 20%;
 }
@@ -42,8 +43,22 @@ input[type="text"] {
     width: 100%;
     box-shadow: 5px 5px 2px 1px rgba(182, 182, 189, 0.2);
     outline: none;
+    color: gray;
 }
 
 input[type="text"]:focus {
     border-color: rgba(221, 160, 221, 0.7);
+}
+
+.todo {
+    background-color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: larger;
+    width: 100%;
+}
+
+.todo-list p {
+    margin: 5px 0px
 }

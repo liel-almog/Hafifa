@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: rgb(240, 238, 239);
+    background-color: rgb(245, 244, 244);
 }
 
 .heading {
@@ -60,5 +60,9 @@ input[type="text"]:focus {
 }
 
 .todo-list p {
-    margin: 5px 0px
+    margin: 5px 0px;
+}
+
+.erase {
+    text-decoration: line-through;
 }

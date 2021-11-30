@@ -1,0 +1,43 @@
+body {
+    background-color: burlywood;
+    font-family: Roboto;
+}
+
+.main {
+    height: 100vh;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.card {
+    text-align: center;
+    width: 60%;
+    background-color: white;
+    padding: 1em 2em;
+    border-radius:10px
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: rgba(153, 83, 83, 0.171);
+	border: none;
+    border-radius: 10px;
+	cursor: pointer;
+    padding: 0.5em 1em
+}
+
+.card .header {
+    color:rgb(60, 131, 107);
+    font-size: x-large;
+}
+
+.card .joke {
+    color: rgba(0, 0, 0, 0.918)
+}

@@ -13,7 +13,7 @@ body {
 
 .card {
     text-align: center;
-    width: 60%;
+    width: 35%;
     background-color: white;
     padding: 1em 2em;
     border-radius:10px
@@ -40,4 +40,10 @@ body {
 
 .card .joke {
     color: rgba(0, 0, 0, 0.918)
+}
+
+@media (max-width: 1000px) {
+    .card {
+        width: 60%;
+    }
 }

@@ -1,0 +1,58 @@
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+.navbar {
+  text-align: center;
+  font-size: x-large;
+}
+
+.center {
+  justify-content: center;
+}
+
+.navbar a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.black {  
+  color: black;
+}
+
+#main {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px 1px rgba(182, 182, 189, 0.2);
+  flex-direction: column;
+  height: fit-content;
+  margin-bottom: 2rem;
+  padding: 10px 0;
+}
+
+.card .card-body {
+  padding: 0px 10px;
+  line-height: 1.5;
+}
+
+.card a.image-container {
+  height: 50%;
+  width: 100%;
+}
+
+.card .image-container img {
+  height: 100%;
+  width: 100%;
+}

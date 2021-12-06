@@ -9,7 +9,7 @@ body {
 }
 
 .center {
-  justify-content: center;
+  align-items: center;
 }
 
 .navbar a,
@@ -27,6 +27,7 @@ a:active {
 #main {
   margin-top: 1rem;
   display: flex;
+  flex-direction: column;
 }
 
 .card {
